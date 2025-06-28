@@ -14,7 +14,7 @@ const UserCard: React.FC<UserTableProps> = ({ users, handleDelete, handleEdit })
             {users.map((user) => (
                 <div
                     key={user.id}
-                    className="bg-white shadow rounded-lg p-6 flex flex-col items-center relative group hover:bg-gray-100 transition"
+                    className="bg-white shadow-sm  rounded-lg p-6 flex flex-col items-center relative group hover:bg-gray-100 transition"
                 >
                     <img
                         src={user.avatar}

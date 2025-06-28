@@ -143,7 +143,7 @@ const UserModal: React.FC<UserModalProps> = ({ isOpen, onClose, editData }) => {
                         <button
                             type="button"
                             onClick={onClose}
-                            className="bg-gray-500 text-white px-4 py-2 cursor-pointer rounded hover:bg-gray-600"
+                            className="bg-white shadow text-gray-500 px-4 py-2 cursor-pointer rounded"
                         >
                             Cancel
                         </button>
